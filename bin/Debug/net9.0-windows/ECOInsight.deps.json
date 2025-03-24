@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ECOInsight/1.0.0": {
+        "runtime": {
+          "ECOInsight.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECOInsight/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

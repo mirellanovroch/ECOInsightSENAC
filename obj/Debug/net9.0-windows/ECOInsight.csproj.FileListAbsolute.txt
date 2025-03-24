@@ -1,0 +1,17 @@
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\bin\Debug\net9.0-windows\ECOInsight.exe
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\bin\Debug\net9.0-windows\ECOInsight.deps.json
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\bin\Debug\net9.0-windows\ECOInsight.runtimeconfig.json
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\bin\Debug\net9.0-windows\ECOInsight.dll
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\bin\Debug\net9.0-windows\ECOInsight.pdb
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.Form1.resources
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.csproj.GenerateResource.cache
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.AssemblyInfoInputs.cache
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.AssemblyInfo.cs
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.csproj.CoreCompileInputs.cache
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.sourcelink.json
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.dll
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\refint\ECOInsight.dll
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.pdb
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ECOInsight.genruntimeconfig.cache
+C:\Users\geovane.ffeitosa\ESGSoftwareSENAC\obj\Debug\net9.0-windows\ref\ECOInsight.dll
