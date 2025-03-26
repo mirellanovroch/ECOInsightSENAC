@@ -1,10 +1,15 @@
 namespace ECOInsight
 {
-    public partial class Form1 : Form
+    public partial class LOGIN : Form
     {
-        public Form1()
+        public LOGIN()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
