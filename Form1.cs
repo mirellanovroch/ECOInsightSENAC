@@ -1,4 +1,4 @@
-namespace ECOInsight
+namespace ECOInsightSENAC
 {
     public partial class Form1 : Form
     {

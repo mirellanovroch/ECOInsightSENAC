@@ -1,4 +1,6 @@
-namespace ECOInsight
+using ECOInsight;
+
+namespace ECOInsightSENAC
 {
     internal static class Program
     {
@@ -9,10 +11,9 @@ namespace ECOInsight
         static void Main()
         {
             // To customize application configuration such as set high DPI settings or default font,
-            // teste
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new Gestor());
         }
     }
 }

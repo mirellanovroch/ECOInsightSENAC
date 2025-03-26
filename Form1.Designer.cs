@@ -1,4 +1,4 @@
-﻿namespace ECOInsight
+﻿namespace ECOInsightSENAC
 {
     partial class Form1
     {
