@@ -8,23 +8,23 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\geovane.ffeitosa\\.nuget\\packages\\": {},
+    "C:\\Users\\mirel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\geovane.ffeitosa\\ESGSoftwareSENAC\\ECOInsight.csproj",
+      "projectUniqueName": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\ECOInsight.csproj",
       "projectName": "ECOInsight",
-      "projectPath": "C:\\Users\\geovane.ffeitosa\\ESGSoftwareSENAC\\ECOInsight.csproj",
-      "packagesPath": "C:\\Users\\geovane.ffeitosa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\geovane.ffeitosa\\ESGSoftwareSENAC\\obj\\",
+      "projectPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\ECOInsight.csproj",
+      "packagesPath": "C:\\Users\\mirel\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\geovane.ffeitosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mirel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
