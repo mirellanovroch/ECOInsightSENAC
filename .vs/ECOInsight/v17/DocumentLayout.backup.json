@@ -1,12 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC029355-A0D4-4175-9FEB-F74E30840D85}|ECOInsight.csproj|d:\\documentos\\mika\\projetosdev\\ecoinsight\\ecoinsightsenac\\esqueci a senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC029355-A0D4-4175-9FEB-F74E30840D85}|ECOInsight.csproj|solutionrelative:esqueci a senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC029355-A0D4-4175-9FEB-F74E30840D85}|ECOInsight.csproj|D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC029355-A0D4-4175-9FEB-F74E30840D85}|ECOInsight.csproj|solutionrelative:gestor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Esqueci a Senha.cs [Projeto]",
+              "DocumentMoniker": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\Esqueci a Senha.cs",
+              "RelativeDocumentMoniker": "Esqueci a Senha.cs",
+              "ToolTip": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\Esqueci a Senha.cs [Projeto]",
+              "RelativeToolTip": "Esqueci a Senha.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:07:55.041Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gestor.cs [Projeto]",
+              "DocumentMoniker": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\Gestor.cs",
+              "RelativeDocumentMoniker": "Gestor.cs",
+              "ToolTip": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\Gestor.cs [Projeto]",
+              "RelativeToolTip": "Gestor.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:07:51.664Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

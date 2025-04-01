@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ECOInsight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59f9840be37457808fe40ea5d1b0094a1a348e01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7916033b84297145347ebe6324aefbaecab3be7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ECOInsight")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ECOInsight")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

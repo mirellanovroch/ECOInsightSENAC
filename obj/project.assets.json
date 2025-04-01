@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\ECOInsight.csproj",
+      "projectUniqueName": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsight.csproj",
       "projectName": "ECOInsight",
-      "projectPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\ECOInsight.csproj",
+      "projectPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsight.csproj",
       "packagesPath": "C:\\Users\\mirel\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsightSENAC\\obj\\",
+      "outputPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
