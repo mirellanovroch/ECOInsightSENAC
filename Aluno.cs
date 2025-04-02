@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ECOInsight
 {
@@ -43,6 +44,11 @@ namespace ECOInsight
             HomeTela homeTela = new HomeTela();
             homeTela.Show(); //Abre a nova tela
             this.Hide(); //Oculta a tela atual
+        }
+
+        private void btnSairAluno_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

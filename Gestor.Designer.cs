@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             panelEsquedo = new Panel();
-            btnSair = new Button();
+            btnSairGestor = new Button();
             btnProfessor = new Button();
             btnAluno = new Button();
             btnGestor = new Button();
             btnDestaquesGestor = new Button();
+            panel1 = new Panel();
             panelSuperiorGestor = new Panel();
             lblGestor = new Label();
             panelEsquedo.SuspendLayout();
@@ -43,29 +44,32 @@
             // panelEsquedo
             // 
             panelEsquedo.BackColor = Color.FromArgb(153, 179, 142);
-            panelEsquedo.Controls.Add(btnSair);
+            panelEsquedo.Controls.Add(btnSairGestor);
             panelEsquedo.Controls.Add(btnProfessor);
             panelEsquedo.Controls.Add(btnAluno);
             panelEsquedo.Controls.Add(btnGestor);
             panelEsquedo.Controls.Add(btnDestaquesGestor);
+            panelEsquedo.Controls.Add(panel1);
             panelEsquedo.Dock = DockStyle.Left;
             panelEsquedo.Location = new Point(0, 40);
             panelEsquedo.Name = "panelEsquedo";
             panelEsquedo.Size = new Size(161, 593);
             panelEsquedo.TabIndex = 10;
             // 
-            // btnSair
+            // btnSairGestor
             // 
-            btnSair.FlatAppearance.BorderSize = 0;
-            btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSair.ForeColor = SystemColors.ActiveCaptionText;
-            btnSair.Location = new Point(0, 524);
-            btnSair.Name = "btnSair";
-            btnSair.Size = new Size(161, 57);
-            btnSair.TabIndex = 4;
-            btnSair.Text = "SAIR";
-            btnSair.UseVisualStyleBackColor = true;
+            btnSairGestor.Anchor = AnchorStyles.Bottom;
+            btnSairGestor.FlatAppearance.BorderSize = 0;
+            btnSairGestor.FlatStyle = FlatStyle.Flat;
+            btnSairGestor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSairGestor.ForeColor = SystemColors.ActiveCaptionText;
+            btnSairGestor.Location = new Point(0, 524);
+            btnSairGestor.Name = "btnSairGestor";
+            btnSairGestor.Size = new Size(161, 57);
+            btnSairGestor.TabIndex = 4;
+            btnSairGestor.Text = "SAIR";
+            btnSairGestor.UseVisualStyleBackColor = true;
+            btnSairGestor.Click += btnSairGestor_Click;
             // 
             // btnProfessor
             // 
@@ -127,6 +131,13 @@
             btnDestaquesGestor.UseVisualStyleBackColor = true;
             btnDestaquesGestor.Click += btnDestaquesGestor_Click;
             // 
+            // panel1
+            // 
+            panel1.Location = new Point(0, 524);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(161, 70);
+            panel1.TabIndex = 14;
+            // 
             // panelSuperiorGestor
             // 
             panelSuperiorGestor.BackColor = Color.FromArgb(36, 65, 57);
@@ -158,6 +169,7 @@
             Name = "GestorTela";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gestor";
+            Load += GestorTela_Load;
             panelEsquedo.ResumeLayout(false);
             panelSuperiorGestor.ResumeLayout(false);
             panelSuperiorGestor.PerformLayout();
@@ -167,12 +179,13 @@
         #endregion
 
         private Panel panelEsquedo;
-        private Button btnSair;
+        private Button btnSairGestor;
         private Button btnProfessor;
         private Button btnAluno;
         private Button btnGestor;
         private Button btnDestaquesGestor;
         private Panel panelSuperiorGestor;
         private Label lblGestor;
+        private Panel panel1;
     }
 }

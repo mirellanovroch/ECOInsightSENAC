@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             panelEsquedo = new Panel();
-            btnSair = new Button();
+            btnSairProfessor = new Button();
             btnProfessor = new Button();
             btnAluno = new Button();
             btnGestor = new Button();
             btnDestaques = new Button();
+            panel1 = new Panel();
             panelSuperiorProfessor = new Panel();
             lblAluno = new Label();
             panelEsquedo.SuspendLayout();
@@ -43,29 +44,32 @@
             // panelEsquedo
             // 
             panelEsquedo.BackColor = Color.FromArgb(153, 179, 142);
-            panelEsquedo.Controls.Add(btnSair);
+            panelEsquedo.Controls.Add(btnSairProfessor);
             panelEsquedo.Controls.Add(btnProfessor);
             panelEsquedo.Controls.Add(btnAluno);
             panelEsquedo.Controls.Add(btnGestor);
             panelEsquedo.Controls.Add(btnDestaques);
+            panelEsquedo.Controls.Add(panel1);
             panelEsquedo.Dock = DockStyle.Left;
             panelEsquedo.Location = new Point(0, 40);
             panelEsquedo.Name = "panelEsquedo";
             panelEsquedo.Size = new Size(161, 593);
             panelEsquedo.TabIndex = 14;
             // 
-            // btnSair
+            // btnSairProfessor
             // 
-            btnSair.FlatAppearance.BorderSize = 0;
-            btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSair.ForeColor = SystemColors.ActiveCaptionText;
-            btnSair.Location = new Point(0, 524);
-            btnSair.Name = "btnSair";
-            btnSair.Size = new Size(161, 57);
-            btnSair.TabIndex = 4;
-            btnSair.Text = "SAIR";
-            btnSair.UseVisualStyleBackColor = true;
+            btnSairProfessor.Anchor = AnchorStyles.Bottom;
+            btnSairProfessor.FlatAppearance.BorderSize = 0;
+            btnSairProfessor.FlatStyle = FlatStyle.Flat;
+            btnSairProfessor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSairProfessor.ForeColor = SystemColors.ActiveCaptionText;
+            btnSairProfessor.Location = new Point(0, 524);
+            btnSairProfessor.Name = "btnSairProfessor";
+            btnSairProfessor.Size = new Size(161, 57);
+            btnSairProfessor.TabIndex = 4;
+            btnSairProfessor.Text = "SAIR";
+            btnSairProfessor.UseVisualStyleBackColor = true;
+            btnSairProfessor.Click += btnSairProfessor_Click;
             // 
             // btnProfessor
             // 
@@ -126,6 +130,13 @@
             btnDestaques.UseVisualStyleBackColor = true;
             btnDestaques.Click += btnDestaques_Click;
             // 
+            // panel1
+            // 
+            panel1.Location = new Point(3, 520);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(161, 70);
+            panel1.TabIndex = 16;
+            // 
             // panelSuperiorProfessor
             // 
             panelSuperiorProfessor.BackColor = Color.FromArgb(36, 65, 57);
@@ -168,12 +179,13 @@
         #endregion
 
         private Panel panelEsquedo;
-        private Button btnSair;
+        private Button btnSairProfessor;
         private Button btnProfessor;
         private Button btnAluno;
         private Button btnGestor;
         private Button btnDestaques;
         private Panel panelSuperiorProfessor;
         private Label lblAluno;
+        private Panel panel1;
     }
 }

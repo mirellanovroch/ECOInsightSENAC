@@ -33,7 +33,7 @@ namespace ECOInsight
 
         private void btnGestor_Click(object sender, EventArgs e)
         {
-             GestorTela gestorTela = new GestorTela();
+            GestorTela gestorTela = new GestorTela();
             gestorTela.Show(); //Abre a nova tela
             this.Hide(); //Oculta a tela atual
         }
@@ -43,6 +43,16 @@ namespace ECOInsight
             HomeTela homeTela = new HomeTela();
             homeTela.Show(); //Abre a nova tela
             this.Hide(); //Oculta a tela atual
+        }
+
+        private void btnSairGestor_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void GestorTela_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

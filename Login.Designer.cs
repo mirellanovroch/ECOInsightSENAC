@@ -41,6 +41,8 @@
             btnEntrar = new Button();
             checkBoxLembrarSenha = new CheckBox();
             checkBoxCriarCadastro = new CheckBox();
+            panel1 = new Panel();
+            panel2 = new Panel();
             panelSuperiorLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             SuspendLayout();
@@ -69,7 +71,7 @@
             // 
             // pictureBoxLogo
             // 
-            pictureBoxLogo.Anchor = AnchorStyles.Right;
+            pictureBoxLogo.Anchor = AnchorStyles.Top;
             pictureBoxLogo.Image = (Image)resources.GetObject("pictureBoxLogo.Image");
             pictureBoxLogo.Location = new Point(542, 106);
             pictureBoxLogo.Name = "pictureBoxLogo";
@@ -80,7 +82,7 @@
             // 
             // lblUsuario
             // 
-            lblUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            lblUsuario.Anchor = AnchorStyles.Top;
             lblUsuario.AutoSize = true;
             lblUsuario.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblUsuario.Location = new Point(117, 178);
@@ -91,7 +93,7 @@
             // 
             // lblSenha
             // 
-            lblSenha.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            lblSenha.Anchor = AnchorStyles.Top;
             lblSenha.AutoSize = true;
             lblSenha.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSenha.Location = new Point(117, 253);
@@ -102,7 +104,7 @@
             // 
             // txtUsuario
             // 
-            txtUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            txtUsuario.Anchor = AnchorStyles.Top;
             txtUsuario.Location = new Point(117, 217);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(314, 23);
@@ -110,7 +112,7 @@
             // 
             // txtSenha
             // 
-            txtSenha.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            txtSenha.Anchor = AnchorStyles.Top;
             txtSenha.Location = new Point(117, 293);
             txtSenha.Name = "txtSenha";
             txtSenha.Size = new Size(314, 23);
@@ -119,7 +121,7 @@
             // 
             // btnEsqueciSenha
             // 
-            btnEsqueciSenha.Anchor = AnchorStyles.Bottom;
+            btnEsqueciSenha.Anchor = AnchorStyles.Top;
             btnEsqueciSenha.FlatAppearance.BorderSize = 0;
             btnEsqueciSenha.FlatStyle = FlatStyle.Flat;
             btnEsqueciSenha.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -133,7 +135,7 @@
             // 
             // btnCriarCadastro
             // 
-            btnCriarCadastro.Anchor = AnchorStyles.Bottom;
+            btnCriarCadastro.Anchor = AnchorStyles.Top;
             btnCriarCadastro.FlatAppearance.BorderSize = 0;
             btnCriarCadastro.FlatStyle = FlatStyle.Flat;
             btnCriarCadastro.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -147,7 +149,7 @@
             // 
             // btnEntrar
             // 
-            btnEntrar.Anchor = AnchorStyles.Bottom;
+            btnEntrar.Anchor = AnchorStyles.Top;
             btnEntrar.BackColor = Color.FromArgb(35, 68, 57);
             btnEntrar.FlatAppearance.BorderSize = 0;
             btnEntrar.FlatStyle = FlatStyle.Flat;
@@ -163,7 +165,7 @@
             // 
             // checkBoxLembrarSenha
             // 
-            checkBoxLembrarSenha.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            checkBoxLembrarSenha.Anchor = AnchorStyles.Top;
             checkBoxLembrarSenha.AutoSize = true;
             checkBoxLembrarSenha.Location = new Point(117, 331);
             checkBoxLembrarSenha.Name = "checkBoxLembrarSenha";
@@ -174,7 +176,7 @@
             // 
             // checkBoxCriarCadastro
             // 
-            checkBoxCriarCadastro.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            checkBoxCriarCadastro.Anchor = AnchorStyles.Top;
             checkBoxCriarCadastro.AutoSize = true;
             checkBoxCriarCadastro.Location = new Point(117, 356);
             checkBoxCriarCadastro.Name = "checkBoxCriarCadastro";
@@ -182,6 +184,20 @@
             checkBoxCriarCadastro.TabIndex = 10;
             checkBoxCriarCadastro.Text = "Vizualizar Senha";
             checkBoxCriarCadastro.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(60, 106);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(426, 462);
+            panel1.TabIndex = 11;
+            // 
+            // panel2
+            // 
+            panel2.Location = new Point(523, 75);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(503, 515);
+            panel2.TabIndex = 12;
             // 
             // LoginTela
             // 
@@ -200,6 +216,8 @@
             Controls.Add(lblUsuario);
             Controls.Add(pictureBoxLogo);
             Controls.Add(panelSuperiorLogin);
+            Controls.Add(panel1);
+            Controls.Add(panel2);
             Name = "LoginTela";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LOGIN";
@@ -224,5 +242,7 @@
         private Button btnEntrar;
         private CheckBox checkBoxLembrarSenha;
         private CheckBox checkBoxCriarCadastro;
+        private Panel panel1;
+        private Panel panel2;
     }
 }

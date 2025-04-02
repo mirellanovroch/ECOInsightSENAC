@@ -47,5 +47,15 @@ namespace ECOInsight
             professor.Show(); // Abre a nova tela
             this.Hide(); //Oculta a tela atual 
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void HomeTela_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

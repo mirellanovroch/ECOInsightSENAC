@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsight.csproj",
-      "projectName": "ECOInsight",
-      "projectPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsight.csproj",
+      "projectUniqueName": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsightSENAC.csproj",
+      "projectName": "ECOInsightSENAC",
+      "projectPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\ECOInsightSENAC.csproj",
       "packagesPath": "C:\\Users\\mirel\\.nuget\\packages\\",
       "outputPath": "D:\\Documentos\\Mika\\ProjetosDEV\\ECOInsight\\ECOInsightSENAC\\obj\\",
       "projectStyle": "PackageReference",
